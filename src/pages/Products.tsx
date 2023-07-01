@@ -1,10 +1,10 @@
-import { useEffect, useRef, useState } from "react";
-import { SearchInput } from "../components";
-import { productAPI } from "../api/products";
-import { Params, Product, ResponseList } from "../models";
-import { DEFAULT_LIMIT } from "../constants";
-import CardProduct from "../components/CardProduct";
+import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
+import { productAPI } from "../api/products";
+import { SearchInput } from "../components";
+import CardProduct from "../components/CardProduct";
+import { DEFAULT_LIMIT } from "../constants";
+import { Params, Product } from "../models";
 
 export interface ProductsProps {}
 
